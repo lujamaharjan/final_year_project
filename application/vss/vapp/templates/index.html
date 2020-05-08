@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Visual secreat sharing
+{% endblock %}
+
+{% block content %}
+
+
+<div class="container main">
+    <div class="jumbotron mt-5">
+        <h1 class="display-4">Be Seured & Safe</h1>
+        <p class="lead">Keep the group secrets even more secret with use of visual secrat sharing.</p>
+        <hr class="my-4">
+        <p>Let's try and get started</p>
+        <a class="btn btn-success btn-lg mr-4" href="{% url 'vapp:encrypt' %}" role="button">Encrypt</a>
+        <a class="btn btn-info btn-lg" href="{% url 'vapp:verify' %}" role="button">Decrypt</a>
+    </div>
+</div>
+{% endblock %}

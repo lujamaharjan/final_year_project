@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.nav-link{
+    font-size:18px;
+}
+
+.navbar-brand{
+    font-size:22px;
+}
+
+form{
+    font-family: 'Montserrat', sans-serif;
+}
